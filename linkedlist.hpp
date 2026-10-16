@@ -13,8 +13,8 @@ private:
 public:
     LinkedList();
     bool empty();
-    Node *get_head();
-    Node *get_tail();
+    int get_head();
+    int get_tail();
     void push_front(int data);
     void push_back(int data);
     void pop_front();
